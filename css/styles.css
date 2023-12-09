@@ -4,6 +4,11 @@
   box-sizing: border-box;
   margin-bottom: 0;
 }
+.container {
+  width: 1184px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 /*body*/
 body {
   color: #434455;
@@ -12,6 +17,9 @@ body {
 }
 main {
   margin-top: 0px;
+}
+img {
+  display: block;
 }
 /*h1-3'*/
 h1 {
@@ -60,11 +68,9 @@ p {
 }
 /*header*/
 .header {
-  display: flex;
-}
-
-.header-list {
-  display: flex;
+  border-bottom: 1px solid #e7e9fc;
+  width: 1440px;
+  height: 72px;
 }
 
 .logo {
@@ -146,7 +152,6 @@ p {
 }
 .langing-header {
   width: 496px;
-  height: 120px;
   color: #fff;
   text-align: center;
   font-family: "Roboto", sans-serif;
