@@ -1,0 +1,225 @@
+/*body*/
+body {
+  color: #434455;
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+/*h1-3'*/
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+}
+h2 {
+  color: currentColor;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+h3 {
+  color: currentColor;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+/*lists*/
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+/*text*/
+p {
+  color: #434455;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+/*header*/
+header {
+}
+.logo {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.logo-studio {
+  color: #2e2f42;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.nav-list {
+  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1, 5;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+}
+.nav-item {
+  color: currentColor;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.nav-item:hover,
+:focus {
+  color: #404bbf;
+}
+.header-address {
+  font-style: normal;
+}
+.address-item {
+  color: #434455;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.address-item:hover,
+:focus {
+  color: #404bbf;
+}
+/*section 1 landing*/
+.section-landing {
+  background: #2e2f42;
+}
+.langing-header {
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1, 0714;
+  letter-spacing: 1.12px;
+}
+.landing-button {
+  cursor: pointer;
+  background: #4d5ae5;
+  color: var(--WHITE, #fff);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.64px;
+}
+.landing-button:hover,
+:focus {
+  background-color: #404bbf;
+}
+/*section 2 SPDT*/
+.section-spdt {
+  background-color: #fff;
+}
+.spdt-header {
+  color: #2e2f42;
+}
+.spdt-paragraph {
+}
+/*section 3 Our Team*/
+.section-team {
+  background-color: #f4f4fd;
+}
+.team-header {
+  color: #2e2f42;
+  text-align: center;
+}
+.team-list {
+  background: #fff;
+}
+.team-list-header {
+  color: #2e2f42;
+  line-height: 1.2;
+}
+.team-list-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+}
+/*section 4 Portfolio*/
+.section-portfolio {
+  background-color: #fff;
+}
+.portfolio-header2 {
+  color: #2e2f42;
+  line-height: 1.11;
+  text-align: center;
+}
+.portfolio-list {
+  background: var(--WHITE, #fff);
+}
+.portfolio-header-list {
+  color: #2e2f42;
+  line-height: 1.2;
+}
+.portfolio-paragraph {
+  line-height: 1.5;
+}
+/*footer*/
+.footer {
+  background-color: #2e2f42;
+}
+.footer-logo-studio {
+  color: #f4f4fd;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1, 67;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.footer-logo {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.footer-text {
+  color: #f4f4fd;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
