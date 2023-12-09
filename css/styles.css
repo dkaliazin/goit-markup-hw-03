@@ -180,7 +180,7 @@ p {
   margin-right: 457px;
 }
 .landing-button {
-  max-width: 169px;
+  min-width: 169px;
   height: 56px;
   border: none;
   border-radius: 4px;
