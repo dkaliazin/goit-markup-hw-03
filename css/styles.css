@@ -234,21 +234,35 @@ p {
 /*section 3 Our Team*/
 .section-team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .team-header {
   color: #2e2f42;
   text-align: center;
+  margin-bottom: 72px;
+}
+.team-ul {
+  display: flex;
+  gap: 24px;
 }
 .team-list {
   background: #fff;
+  flex-basis: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.team-box {
+  padding: 32px 0;
 }
 .team-list-header {
   color: #2e2f42;
   line-height: 1.2;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .team-list-paragraph {
   font-size: 16px;
   line-height: 1.5;
+  text-align: center;
 }
 /*section 4 Portfolio*/
 .section-portfolio {
