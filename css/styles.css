@@ -301,6 +301,7 @@ p {
 /*footer*/
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-logo-studio {
   color: #f4f4fd;
@@ -322,6 +323,8 @@ p {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-text {
   color: #f4f4fd;
@@ -331,4 +334,5 @@ p {
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
+  max-width: 264px;
 }
