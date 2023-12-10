@@ -267,18 +267,33 @@ p {
 /*section 4 Portfolio*/
 .section-portfolio {
   background-color: #fff;
+  padding: 120px 0 120px 0;
 }
 .portfolio-header2 {
   color: #2e2f42;
   line-height: 1.11;
   text-align: center;
+  margin-bottom: 72px;
+}
+.portofolio-ul {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .portfolio-list {
   background: var(--WHITE, #fff);
+  width: calc((100% - 48px) / 3);
+}
+.portfolio-box {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .portfolio-header-list {
   color: #2e2f42;
   line-height: 1.2;
+  margin-bottom: 8px;
 }
 .portfolio-paragraph {
   line-height: 1.5;
