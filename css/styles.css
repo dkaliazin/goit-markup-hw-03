@@ -2,8 +2,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  margin-bottom: 0;
-  margin: 0 0 0 0;
 }
 .container {
   width: 1158px;
@@ -90,7 +88,9 @@ p {
 }
 .header-box {
   display: flex;
-  margin-left: 0px;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .header-list {
   display: flex;
