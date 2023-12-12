@@ -61,6 +61,14 @@ h3 {
   line-height: 1.2;
   letter-spacing: 0.4px;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
 /*lists*/
 ul {
   list-style-type: none;
@@ -83,14 +91,10 @@ p {
 /*header*/
 .header {
   border-bottom: 1px solid #e7e9fc;
-  width: 1440px;
-  height: 72px;
 }
 .header-box {
   display: flex;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
+  align-items: center;
 }
 .header-list {
   display: flex;
@@ -99,7 +103,6 @@ p {
 }
 .logo {
   display: block;
-  margin: 0px 76px 0px 156px;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -124,7 +127,6 @@ p {
   text-decoration: none;
 }
 .nav-list {
-  margin: 24px 0;
   display: flex;
   gap: 40px;
   color: #2e2f42;
@@ -132,7 +134,7 @@ p {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.32px;
   text-decoration: none;
 }
@@ -144,6 +146,7 @@ p {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  display: box;
   padding: 24px 0;
 }
 .nav-item:hover,
@@ -151,10 +154,7 @@ p {
   color: #404bbf;
 }
 .header-address {
-  display: flex;
   font-style: normal;
-  margin-top: 24px;
-  padding: 0px;
 }
 .header-address-list {
   display: flex;
@@ -189,10 +189,10 @@ p {
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1, 0714;
+  line-height: 1.0714;
   letter-spacing: 1.12px;
-  margin-left: 457px;
-  margin-right: 457px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .landing-button {
   min-width: 169px;
@@ -210,8 +210,8 @@ p {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.64px;
   margin-top: 48px;
-  margin-left: 629px;
-  margin-right: 612px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .landing-button:hover,
 :focus {
